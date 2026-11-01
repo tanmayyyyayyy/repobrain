@@ -1,0 +1,5 @@
+optimize: required
+approval: human
+max_complexity: 10
+max_depth: 3
+blocked: [.github/workflows/, secrets/, .env]

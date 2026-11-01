@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repobrain"
+version = "1.0.0"
+description = "Vendor-neutral policy, proof and clean code for repositories touched by AI agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["pyyaml>=6.0"]
+
+[project.scripts]
+repobrain = "repobrain.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["repobrain*"]
+
+[tool.setuptools.package-data]
+repobrain = ["web/*", "data/*"]

@@ -1,0 +1,42 @@
+name: RepoBrain
+on:
+  pull_request:
+permissions:
+  contents: read
+  pull-requests: write        # sticky PR comment
+  security-events: write      # SARIF upload to code scanning
+jobs:
+  repobrain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - name: Shield + gate + optimizer proposal
+        id: rb
+        continue-on-error: true
+        run: python -m repobrain ci --base origin/${{ github.base_ref }} --actor "${{ github.event.pull_request.user.login }}" --sarif repobrain.sarif --summary summary.md
+      - name: Job summary
+        if: always()
+        run: cat summary.md >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Findings in the Security tab (code scanning)
+        if: always() && hashFiles('repobrain.sarif') != ''
+        continue-on-error: true
+        uses: github/codeql-action/upload-sarif@v3
+        with: { sarif_file: repobrain.sarif, category: repobrain }
+      - name: Sticky PR comment
+        if: always() && hashFiles('summary.md') != ''
+        continue-on-error: true          # fork PRs get a read-only token
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: gh pr comment ${{ github.event.pull_request.number }} --body-file summary.md --edit-last || gh pr comment ${{ github.event.pull_request.number }} --body-file summary.md
+      - name: Verify the audit chain
+        if: always()
+        run: python -m repobrain audit || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: repobrain-report, path: "summary.md\nrepobrain.sarif" }
+      - name: Fail the check if RepoBrain blocked the change
+        if: steps.rb.outcome == 'failure'
+        run: exit 1

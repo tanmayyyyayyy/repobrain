@@ -1,0 +1,16 @@
+name: RepoBrain
+description: Policy, proof and clean code for AI-assisted pull requests (Shield + complexity gate + verified Optimizer)
+inputs:
+  base:    { description: "Base ref to diff against", default: "origin/main" }
+  sarif:   { description: "SARIF output path (upload with github/codeql-action/upload-sarif)", default: "repobrain.sarif" }
+  summary: { description: "Markdown summary path (post as PR comment)", default: "repobrain-summary.md" }
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with: { python-version: "3.12" }
+    - shell: bash
+      run: pip install pyyaml
+    - shell: bash
+      env: { PYTHONPATH: "${{ github.action_path }}" }
+      run: python -m repobrain ci --base "${{ inputs.base }}" --sarif "${{ inputs.sarif }}" --summary "${{ inputs.summary }}"

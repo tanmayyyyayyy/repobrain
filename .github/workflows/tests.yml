@@ -1,0 +1,21 @@
+name: tests
+on: [push, pull_request]
+permissions: { contents: read }
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: { python: ["3.10", "3.11", "3.12"] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "${{ matrix.python }}" }
+      - run: pip install -r requirements-dev.txt
+      - name: Unit + integration tests (pytest)
+        run: python -m pytest -q
+      - name: Same suite on the dependency-free built-in runner
+        run: python -m repobrain.minitest .
+      - name: Dogfood - Shield on our own tree must be clean
+        run: python -m repobrain shield $(git ls-files '*.py' '*.md' '*.yml' '*.js' '*.html')
+      - name: Measured ML numbers (printed for the record)
+        run: python -m repobrain ml-eval

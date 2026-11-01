@@ -1,0 +1,9 @@
+.repobrain/
+.repobrain-demo/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/

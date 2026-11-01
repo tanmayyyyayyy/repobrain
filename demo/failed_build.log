@@ -1,0 +1,6 @@
+============================= test session starts ==============================
+tests/test_api.py F
+    from payments import charge
+E   ModuleNotFoundError: No module named 'stripe'
+File "/app/payments.py", line 3, in <module>
+FAILED tests/test_api.py::test_charge

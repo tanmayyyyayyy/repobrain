@@ -1,0 +1,1500 @@
+notion, pairing up elements that appear uniquely in each sequence.
+SMTPHeloError            The server didn't reply properly to
+No '__text_signature__' was found for the 'obj' class.
+SMTP objects have the following attributes:
+If the optional symlinks flag is true, symbolic links in the
+Windows itself uses ":" even in URLs.
+always considered to match if they are identical; but
+Strip trailing dots from version and release
+The `_str` slot stores the string representation of the path,
+finally, compare results against first row and "vote"
+On other platforms you don't have things like PATHEXT to tell you
+The L format writes the bit pattern correctly whether signed
+This method is primarily intended to be able to recover
+end_lineno and end_col_offset are optional attributes, and they
+instances should use one of the HelpFormatter subclasses for
+Note this is a mapping is lists of paths.
+return 0                # XXX--must do some arithmetic here
+or when an attempt is made to use the SMTP instance before
+number interpreted as the port number to use.
+XXX What if we were just reading?
+set to the current time by default.
+statement used for setup, and a timer function.  Both statements
+defined.  Any items whose home class cannot be discovered are skipped.
+and returns true if they match; and `output_difference`, which
+For data, handle permissions & file types
+Optional keyword argument "package" is a Python package or the
+Let the server do its thing. We just need to monitor its status.
+It is an error for *buffers* to be None if the pickle stream
+differencing iterator, processes them and yields them.  When it can
+encoding specifies the encoding which is to be used for the
+For compatibility with Python 3.0, please consider all arguments to be
+CAUTION:  stripping common prefix or suffix would be incorrect.
+for all computations.  See the book for algorithms for converting between
+When the thread is deleted, remove the local dict.
+Note: people rely on the undocumented ability to join multiple
+For two lists of strings, return a delta in context diff format.
+Handle case where user does not want context differencing, just yield
+refers to the size of a single exception group's exceptions array. The
+This module is in the public domain.  No warranties.
+is likely to be hiding in custom comparison methods, or in array elements
+if size is not None and size < -1:
+store prefixes so line format method has access
+As a single multi-line string it looks like this:
+directly to a named file on disk.
+The server might already have closed the connection.
+break  # Leftover data is not a valid bzip2 stream; ignore it.
+hitting a NEWLINE when in a decorator without args
+If the debugger stops on the current line, invoke
+trace.  The line is a string with leading and trailing
+angle brackets, such as "<stdin>", generated in interactive
+Raise EOFError if the connection is closed.
+IP and Synch; that doesn't seem to work with the servers I've
+Provided as-is; use at your own risk; no warranty; no promises; enjoy!
+The children are yielded in arbitrary order, and the
+Return a StackSummary object representing a list of
+If we have lines cached, first merge them back into characters
+archive member given by a tar header block.
+Python's getopt module, Perl's Getopt::Std, and other argument-
+Pump out the attrs, segregated by kind.
+A simple filter matches all modules and messages.
+A class used to extract the DocTests that are relevant to a given
+so that the signature can match the signature of the C version.
+This method may raise the following exceptions:
+if self.buffer is not None and not self.closed:
+studied, and heaps are good for this, as they are reasonably speedy,
+When the localimpl is deleted, remove the thread attribute.
+special case these keywords since they are objects too
+Or, at the shell command line outside of Python:
+Regular expressions for parsing section headers and options
+default in case the command should fail.
+instance holds information related to the function's profile such as how
+the server refused all our recipients
+Returns None when source can't be found.
+return the default scheme for the current platform.
+if pending is None or finalize._dirty:
+An ordered mapping of parameters' names to the corresponding
+values are dictionaries with keys and values that should be present
+The return value is a 2-tuple of lists,
+Use the faster _pickle if possible
+line, in which case the following TypeError is about as good an error
+A tuple containing the first and last IP addresses in the sequence.
+Copy the permission bits, last access time, last modification time, and
+corresponding to the object and the line number indicates where in the
+Breakpoint was set via line number.
+Internal: return one line from the server, stripping CRLF.
+Cannot rely on checking for EEXIST, since the operating system
+Each element returned by the iterable must be a token sequence
+PY_MICRO_VERSION, # the 0; an int
+Argument offset is a byte count.  Optional argument whence defaults to
+they are used, so the result of calling the references needs
+barf if multiple '-isysroot' arguments are present.
+The guard is necessary to avoid doubling history size at
+otherwise lookup is deferred until the frame is rendered.
+don't affect data seen in this thread:
+Return the compiler-flags associated with the future features that
+Will raise a SpecialFileError for unsupported file types
+level of compression; 1 is fastest and produces the least compression,
+Match the end of the path, always.
+We *do* allow addresses and interfaces to be sorted. The
+to be sure why it failed.  Assume here it was due to lack of
+StreamReader for codecs which have to keep state in order to
+Copy the globals of the temporary module, as they
+tabsize -- tab stop spacing, defaults to 8.
+mtime can be used to set the modification time. The modification time is
+If the 'action' argument is not None, the remaining arguments are passed
+wrapcolumn -- column number where lines are broken and wrapped,
+if arg._flavour is ntpath and self._flavour is posixpath:
+Do note that FileExistsError is raised if cfile ends up pointing at a
+methods, whereas the Signature always shows the actual calling
+Read the file, convert it to a test, and run it.
+all anchor names will be generated using the unique "to" prefix
+was produced with a non-None *buffer_callback*.
+keep the keys around longer than needed.
+machine parseable. It may look different on different
+to one million.  The main statement, the setup statement and
+their output.  The input to the entire conversion may also be read
+First try various environment variables, then the password
+import binascii, errno, random, re, socket, subprocess, sys, time, calendar
+A boolean, True if this is the unspecified address as defined in
+sys.path more than once.  Blank lines and lines beginning with
+name is the offset-producing method, "utcoffset" or "dst".
+to 'strict' which causes ValueErrors to be raised in case an
+if 'ARCHFLAGS' in os.environ and not stripArch:
+self._pending_removals may still contain keys which were
+Python programs and using Python modules.  To get a list of available
+support integrity checks - for these formats, check must be
+Need to create a memoryview object of type 'b', otherwise
+to copy each file. It will be called with the source path and the
+The design is such that one can use the factory functions
+See PEP 506 for more information.
+into file names.  Each string is eight characters long.  Multiple
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+The parameter ´timeout´ must be numeric and defaults to None if not
+Test string fields for values that exceed the field length or cannot
+ignoring auto-overflow-to-long idiomatic Python could be.
+Set correct owner, mtime and filemode on directories.
+We try the supported authentications in our preferred order, if
+For CPython this is the SCM revision from which the
+by direct access to members of Profile class, or by reading in a dictionary
+list the tuple indices and directions for sorting,
+a debugger to debug a statement or an expression.
+BasicInterpolation. The library also provides a ``zc.buildout``
+Divide want into lines; check that it's properly indented; and
+If a state_setter is specified, call it instead of load_build
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+parameters of the same name. The attributes can be used for
+case. There, we only had to replace the module in sys while the
+Force opening of the file in binary mode
+each tuple-index.  The compare functions can then be used as the function
+or code object.  The source code is returned as a list of the lines
+strftime is going to have at this: escape %
+An interface with an associated network is NOT the
+Methods below this point are dispatched through the dispatch table
+implementing the conversion from string to the desired datatype. Every
+There's a chicken-and-egg situation on OS X with regards to the
+Returns a list of strings ready for printing.  Each string in the
+use the real function only if it exists
+normalized parts of the path. They are set when any of the `drive`,
+chain has a ``__signature__`` attribute defined.
+listings of documented functions, miscellaneous topics, and undocumented
+Per default the visitor functions for the nodes are ``'visit_'`` +
+for UTF8/UTF16/UTF32 output and little/big endian machines
+fnmatch. Unlike fnmatch, filenames starting with a
+and, "aix-6107-1415-64" for AIX 6.1 TL7 bd 1415, 64-bit
+list of needed labels in Doc/tools/extensions/pyspecific.py and
+redo the last link to link to the top
+collect them into a `DocTest` object.
+any data. In this case, retry until we get some data or reach EOF.
+The following documentation is automatically generated from the Python
+otherwise try to lookup right now.
+If "package" is not specified, then the calling module's
+time.  When an event schedule other events for execution, they are
+This is not implemented for read-only and non-blocking streams.
+There are only a bunch of valid v6 netmasks, so we cache them all
+A regular expression for handling `want` strings that contain
+only one remaining line, put it back into charbuffer
+else the source is already stored somewhere else
+representing the connection, and the address of the client.
+w may be '' at times, if there are consecutive ellipses, or
+The annotation for the return type of the function if specified.
+The repr of each object contains a hint at how it works.
+producing human-readable differences or deltas.  Differ uses
+raise  # Error on the first iteration; bail out.
+Contained objects whose module does not match `module` are ignored.
+Given a path to a Zip archive, build a dict, mapping file names
+because bar.pth comes alphabetically before foo.pth; and spam is
+when these are not supported. That makes it possible to
+recursive tuples are a rare thing.
+Id: option_parser.py 527 2006-07-23 15:21:30Z greg
+None. port is a string service name such as 'http', a numeric port number or
+A timezone info object may be passed in as well.
+distutils' perspective is what MACOSX_DEPLOYMENT_TARGET is set
+interpreted relative to the current working directory, *not* the
+filter_function is only used when extracting a *different*
+is the mode of fileobj if discernible; otherwise, the default is 'rb'.
+configuration variables that may contain compiler calls
+Catch up on the blank lines so when we yield the next from/to
+is used by several scripting languages distributed with
+If an unexpected exception occurs, an UnexpectedException is raised.
+attribute was read.  For that reason, you generally don't want to save
+to field values; each dict representing a message overview.
+connections. When false it will explicitly disable this option on
+A boolean, True if the address is reserved per RFC 3513 2.5.6.
+The `default' method may be overridden to intercept commands for which there
+else:          # i.e. directory or zipfile execution
+Update with the entry specific variables
+The set of actions that involve storing a value somewhere;
+While an accurate view, to people that's absurd.  The current version
+because no other kind of match is possible in the regions.
+Thus, this could cause the module to be imported recursively.
+If this method is not overridden, it prints an error message and
+encoding gives the name of the encoding that the stream will be
+Allows an authorised administrator to proxy into any user's
+Look for one frame less since the above line starts us off.
+We've hereby abandoned whatever text hasn't been written,
+This is as far as we need to resolve the ambiguity for
+The optional 'args' argument specifies the command line to be parsed,
+indented; and then strip their indentation & prompts.
+handle blank lines where linenum is '>' or ''
+it displays failures.  See the documentation for `testmod` for
+This follows from the definition of x.s.
+Check whether Pickler was initialized correctly. This is
+Return whether the given section exists.
+caused by variability in Python's speed, but by other
+If a command has not been entered, then complete against command list.
+The `completedefault' method may be overridden to intercept completions for
+object.  The setUp function can access the test globals as the
+All methods return self, so you can string together commands like:
+guide the C implementation; it's way more convoluted than speed-
+the other tests promise more -- you can, e.g., count on having the
+inspection, so let `linecache.getlines` to be called.
+kinds of matches, it's best to call set_seq2 once, then set_seq1
+them as a list of `Example` objects.  Line numbers are
+Only bump this if the oldest still supported version of Python already
+NB: we need to accept exc_traceback, exc_value, exc_traceback to
+the test finder will attempt to automatically determine the
+a number, but at this point it's really best effort
+than to fail.  This is particularly important with
+If the first and last objects are not the same version.
+Remove ppc arch flags if not supported here
+First try reading the information from an XML file which should
+Optional second argument is the `source` specifying the name of the
+Compare two sequences of lines; generate the resulting delta.
+the STOP opcode, passing the object that is the result of unpickling.
+handling of line endings. If it is None, universal newlines is
+longer exists in the Breakpoint class, then it's removed from the
+SMTPNotSupportedError    The AUTH command is not supported by the
+access to the test and example information.
+The inode is added only if its valid.
+from warnings import warn as _warn
+The function uses the -b option of the file command to have it
+HIDE is a list of names to hide,
+A boolean, True if the address is a loopback address as defined in
+A Cmd instance or subclass instance is a line-oriented interpreter
+This returns an instance of a class with the following public methods:
+obj may be a callable, class, or module.
+The encoding gives the way in which audio samples are encoded.
+If there is no quotechar the delimiter can't be determined
+The `run` method is used to process a single DocTest case.  It
+Alternative names allowed in LIST OVERVIEW.FMT response
+Return all the configuration section names, sans DEFAULT.
+Resets the codec buffers used for keeping state.
+exist, an exception will be added in the list of errors raised in
+f_locals        local namespace seen by this frame
+Create unique tag for this session,
+IPv6 networks may be supplied; integers less than 2**32 will
+was inserted after "private".  I can live with that <wink>.
+The argument indicates a desired minimal number of bytes; we
+The closing frame may be added by a recursive call
+to a different URL or to a local directory containing the Library
+scan text looking for the wrap point, keeping track if the wrap
+if t and t.tb_frame is f:
+Generic implementation of splitext, to be parametrized with
+File types that will be treated as a regular file.
+OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+Execution time of this setup statement is NOT timed.
+transfer command.  Either way, return the socket for the
+If REPORT_ONLY_FIRST_FAILURE is set, then suppress
+The DocTestCase provides a debug method that raises
+recursively where not already set, by setting them to the values of the
+f_code          code object being executed in this frame
+Raises BlockingIOError if the underlying raw stream has no
+See the methods of the parent class POP3 for more documentation.
+in read1 mode and already got some data
+when self.isjunk is defined, junk elements don't show up in this
+The first week is 1; Monday is 1 ... Sunday is 7.
+a user-supplied function taking a sequence element and
+meaning as they do in the SMTP class.  To specify a Unix socket,
+means a number that factors to both 6 and 8,
+to this intermediary form to ensure that no references are held, while
+Whether this path is a junction.
+Limit the member search list up to tarinfo.
+can't continue even if onexc hook returns
+if not data or size is not None:
+only usable for executables compiled using gcc.
+relative to the calling module's directory; but if the
+to the given data_encoding and then encoded to the underlying
+Note: this could be fooled by a multiline function
+Then the following directories are added to sys.path, in this order:
+return diff and 1 or 0
+Always convert srcdir to an absolute path
+first make sure no other unpacker is registered for this extension
+for name, where, value in vars:
+for name, kind, homecls, value in ok:
+Path operations common to more than one OS
+Create constants for the compiler flags in Include/code.h
+the global default socket timeout is used
+The returned wrapped file object provides an extra attribute
+visitor function for every node found.  This function may return a value
+prefixlen: An integer, the prefix length.
+Try the 'ver' system command available on some
+Naming convention: Variables named "wr" are weak reference objects;
+As an approximation, we assume that if we are running on 10.4 or above,
+If we've already processed this object, then ignore it.
+indicator for the supported pointer size.
+directory separator.  'q*x/' should match only directories.
+a stream-like object.  The stream-like object only
+b where x appears; the indices are in increasing order; note that
+matching_blocks list now.  Starting with 2.5, this code was added
+Only makes one system call, so less data may be returned than requested
+find consecutive address ranges in the sorted sequence and summarize them
+I.e., the number of space characters that precede the
+When a warning is logged during Python shutdown, linecache
+The optional argument 'display' can be set to 0 to suppress sending the
+Check if we should use diff.
+protocol 0 or 1 in Python 2.3 should be unpicklable by
+way to extract "the priority" from an array element, so that intelligence
+not None and the readline module is available, command completion
+ip_str: A string, the IPv6 ip_str.
+This regexp matches the start of non-blank lines:
+a directory with a symlink after the call to
+Determine which long option string 'opt' matches, ie. which one
+This function uses a cache for past comparisons and the results,
+M is the number of matches, this is 2.0*M / T.
+you may not use this file except in compliance with the License.
+in conjunction with the ELLIPSIS flag.
+Downstream distributors who patch posix_prefix/nt scheme are encouraged to
+format the object and append to the result
+Reading this plist is a documented way to get the system
+overridden by an env variable, preserving additional arguments.
+If the optional argument `verbose` is true, then generate output
+These releases use the old name SunOS
+Run "pydoc <name>" to show documentation on something.  <name> may be
+Returns a formatted week day name.
+Entries which cannot be determined are set to ''.
+objects and 'return_annotation'.  All arguments are optional.
+The parser object of the proxy is read-only.
+self.usage is replaced with the name of the current program
+will be interpreted the same as
+We have to be root to do so.
+Insert a space between two consecutive f-strings
+challenge argument it is passed will be a bytes.  It should return
+An OSError is raised if the IO object does not use a file descriptor.
+index 0 is unused, except for marking an
+Format a Python object into a pretty-printed representation.
+is set to an empty string
+Licensed to PSF under a Contributor Agreement.
+the recipient addresses contain non-ASCII and the server advertises the
+check specifies the integrity check to use. This argument can
+create an AF_INET6 socket able to accept both IPv4 or IPv6
+preserves order, sections and their keys will be added in order.
+Generates 'EXPUNGE' response for each deleted message.
+clean up unused file objects before blocking
+Try to distinguish various flavours of Unix
+Python keyword, topic, function, module, or package, or a dotted
+from urllib.parse import quote_from_bytes as urlquote_from_bytes
+AddressValueError: If ipaddress isn't a valid IPv4 address.
+Members with unknown types are treated as regular files.
+from inspect import CO_GENERATOR, CO_COROUTINE, CO_ASYNC_GENERATOR
+Internal: "sanitize" a string for printing
+return # Redundant registrations are benign
+if __all__ exists, believe it.  Otherwise use old heuristic.
+Tommy Burnette, the original creator of manpy.
+cumtime, # time spent in the function plus all functions that this function called,
+The output tar file will be named 'base_name' +  ".tar", possibly plus
+And now how many single years.  Again n1 can be 4, and again meaning
+The write_through argument has no effect here since this
+address: A string or integer, the IP address.  Either IPv4 or
+Raises BlockingIOError if the buffer is full and the
+the inner loop above, but also means "the best" match so far
+based on Andrew Kuchling's minigzip.py distributed with the zlib module
+to. This makes the compatibility story a bit more sane because the
+normalized case. It is set when the `_str_normcase` property is
+This will raise AttributeError if the underlying file object
+if w:   # starts with exact match
+local to a thread. If we access the data in a different thread:
+Substitute overflowing decimal literal for AST infinities,
+If it's not a pure Python function, and not a duck type
+class after this function is called.
+bpo-37642: These attributes are rounded to the nearest minute for backwards
+If length is None, copy the entire content.
+Catch errors that may happen when close is called from __del__
+modification, are permitted provided that the following conditions are
+raised by tests for bad coding cookies or BOM
+WITH THE USE OR PERFORMANCE OF THIS SOFTWARE !
+drwxr-xr-x   8 root     wheel        1024 Jan  3  1994 .
+attribute, but beyond that the set of attributes varies.  __name__ is
+On many systems, the buffer will typically be 4096 or 8192 bytes long.
+directory; but if the "package" argument is specified, then
+If the argument is positive, and the underlying raw stream is
+We didn't get enough decoded data; signal EOF to get more.
+command reads its standard input or 'f' if it requires a file; the
+return true iff the string is junk.  The default is None, and is
+This should never happen in case of a properly built
+Where a nested list appears, it contains classes derived from the class
+If ignore_errors is set, errors are ignored; otherwise, if onexc or
+so finish up this member, and read a new gzip header.
+The set of actions which take a 'const' attribute.
+else list of RECENT responses, most recent last.
+A boolean, True if this is the unspecified address as defined in
+an ASCII string that will be base64 encoded and sent to the server.
+This is a 5-tuple, of the same form as sys.version_info, or, if
+was set.  If it was set via line number, check if b.line is the same as
+if not user and not usenetrc:
+incremental decoder if the decoder must be able to handle incomplete
+set it to False to disable the feature or True to force the feature
+provided by this module can be used without fear of race conditions
+The name of the parameter as a string.
+Return False if it can't be determined.
+CSS classes for the day <td>s
+should not be used, but 'data' needs to convert the string to
+containing name/value pairs parsed from the configured
+Handle case where no user markup is to be added, just return line of
+if cv in _config_vars and cv not in os.environ:
+be padded with spaces to match its original position.
+Do not alter a config var explicitly overridden by env var
+This is possibly a portion of a namespace
+IPv6 addresses may be supplied; integers less than 2**32 will
+test_modulefinder.py changes file tree contents in a cache-breaking way:
+to import _sysconfigdata, which we won't have built yet.  In order
+return: A function or other code block is about to return.
+Patch linecache.getlines, so we can see the example's source
+field_name can be None, in which case there's no
+The C tokenizer is more picky than the Python one, so we need to massage
+Derived classes and clients can call the following method
+creating temporary files and directories.  All of the interfaces
+XXX The functions here don't copy the resource fork or other metadata on Mac.
+Furthermore, the compiler that can be used varies between
+The destination may be a directory.
+docstrings to get executed and verified:
+Variables with a 'PY_' prefix in the makefile. These need to
+try and evaluate the smallest portion of the data possible, evaluating
+Maps the name of the archive format to a tuple containing:
+return "Skipping tests from %s" % self.module.__name__
+called __newobj__, and its first argument should be a
+since some action take too long to be run on module import
+Read a chunk, decode it, and put the result in self._decoded_chars.
+For long sequences of the same frame and line, the first few
+of a thread race, but that is harmless
+Check private dispatch table if any, or else
+if self.stopframe and frame.f_code.co_flags & GENERATOR_AND_COROUTINE_FLAGS:
+produce them.  The problem with this is if the 'text' portion of the response
+And then take whatever action is expected of us.
+This means that this parameter, and all parameters
+Now we check if the 'obj' class has an own '__new__' method
+Flush buffer to ensure validity of self.offset
+We first try the strict standard encoding, and if that fails we
+the function does not have a "self" parameter.
+objects, or the constructor to create TracebackException instances from
+initialize at least the following instance attributes:
+The `filter` function will be called on each member just
+Strip off any readline induced trailing newline
+d-wxrwxr-x   2 ftp      wheel        1024 Sep  5 13:43 incoming
+file, an io.BytesIO object, or any other object which simulates a file.
+additional_state_info must be a non-negative integer
+exc_value:  exception value to be used in error message
+the returned string will show the names and the values for fields.
+All tabs are expanded to spaces.  To clean up docstrings that are
+Python literal structures: strings, bytes, numbers, tuples, lists, dicts,
+filename and more than one file may be created.  The optional flag
+If in_file is a pathname open it and change defaults
+if self.raw is not None and not self.closed:
+compress,        # compression kind; 0 for uncompressed
+sense then.  The docs ask that an Eastern tzinfo class consider such a time to
+XXX we can implement some more tricks to try and avoid
+If chain is not *True*, *__cause__* and *__context__* will not be formatted.
+contents without concatenation to the above to avoid a
+set up iterator to wrap lines that exceed desired width
+attributes" where possible. The file contents, owner, and group are
+return '<strong>' + text + '</strong>'
+Returns exactly size bytes of data unless the underlying raw IO
+inplace modification of obj. We do not care about what the
+for CPython compatibility, we cannot use
+too hard ... or maybe not.  In two real-life failures Tim saw,
+compile flags if the user has specified one them in extra_compile_flags.
+override factory to affect length check
+Split the argument into words using split, capitalize each
+a zipfile, or to a specific path inside a zipfile. For example, it can be
+A buffered reader object and buffered writer object put together to
+If the optional argument `exclude_empty` is false, then `find`
+list has the same order as the members in the archive.
+for tag, i1, i2, _, _ in group:
+for a list of possible values.
+it is loaded, and if it can, writes out the bytecode to the
+Note that the site-local address space has been deprecated by RFC 3879.
+If frame is not specified, debugging starts from caller's frame.
+notice, this list of conditions and the following disclaimer in the
+Breakpoint was set at a line with a def statement and the function
+The old GNU sparse format occupies some of the unused
+them.  This can be disabled by passing
+schemes by providing the errors keyword argument. These
+normcase on posix is NOP. Optimize it away from the loop.
+Convert from UTC to tz's local time.
+is returned as bytes, and data to be written must be given as bytes.
+If we got here, there's a bug somewhere.
+element is junk.  None is equivalent to passing "lambda x: 0", i.e.
+Based on the J. Myers POP3 draft, Jan. 96
+all the necessary arguments for creating a socket connected to that service.
+exists when opened for creating. Opening a file for creating implies
+within the `dst` tree will be overwritten by corresponding files from the
+except:                         # just in case something goes wrong
+Report that the test runner is about to process the given
+The PermissionError handler was originally added for
+No Python documentation found for %r.
+FITNESS, IN NO EVENT SHALL LANCE ELLINGHOUSE CENTRUM BE LIABLE
+class, its own '__text_signature__' may be 'None'.
+Please wait a moment while I gather a list of all available modules...
+import linecache # Import as late as possible
+and a detailed report of all examples tried is printed to stdout, along
+If dst is an existing directory or a symlink to a directory, then src is
+If the output doesn't match, then a DocTestFailure is raised:
+opened. It defaults to 'r' which means open for reading in text mode. Other
+Authentication methods the server claims to support
+To be able to communicate with as many SMTP servers as possible,
+Have to be set now, in case no option strings are supplied.
+C double doesn't have enough bits of precision to represent
+MandatoryRelease predicts the release in which the feature will become part
+Handle loops in __cause__ or __context__.
+check which of the entries you access are mutable and/or which ones you
+a few applications, and I think it is good to keep a `heap' module
+from a disk file or from an open file, and similar for its output.
+Read and parse the iterable of named configuration files, given by
+any sort of interpolation, whereas ConfigParser uses an instance of
+connecting. If the host is '' and port is 0, the OS default behavior
+Possible boolean values in the configuration.
+If not specified, the strings default to blanks.
+replace it by something else at a lower level, and the rule becomes
+On Mac OS X before 10.4, check if -arch and -isysroot
+if they're string-identical, always return true.
+Compares needed by heapify     Compares needed by 1000 heappops
+size can be specified to control the number of lines read: no
+Issue 25185: Use UTF-8, as that's what the venv module uses when
+bool: 'NameConstant',  # should be before int
+Connect as usual to port 21 implicitly securing the FTP control
+be considered subclasses of the registering ABC by the built-in
+Backward slashes are converted to forward slashes,
+A 0o200 byte indicates a positive number, a 0o377 byte a negative
+here to work around problems with Cygwin not being
+Month and day names.  For localized versions, see the calendar module.
+information concatenated as single string to stdout. The output
+the maximum starting column for option help text
+The server can advertise several supported versions,
+if it has a default value, or it is an '*args'-like
+If `recursive` is true, the pattern '**' will match any files and
+mappings from the OptionParser that owns this OptionGroup.
+PurePath objects.  The strings and path objects are combined so as
+text modules can be directly examined
+Modified by Phil Schwartz to add storbinary and storlines callbacks.
+If this heap invariant is protected at all time, index 0 is clearly
+This is false for dangling symbolic links on systems that support them.
+The output is intended to be human readable rather than
+partially-redundant tracebacks. If we wanted to be clever we could
+Check that direct match first if and only if the extension is in PATHEXT
+The first sequence to be compared is not changed.
+If 'suffix' is not None, the file name will end with that suffix,
+buggy custom __dir__; discard and move on
+Note, this function is purposefully not defined at the module scope so
+regardless of chunk size; we want the number of such calls to
+RFC 2821 says we should use the fqdn in the EHLO/HELO verb, and
+A marker for markcoroutinefunction and iscoroutinefunction.
+our __class__ here, but need a real timedelta
+defines of CO_xxx flags in Include/cpython/compile.h.
+which converts into a formatted IP string.
+ValueError: If the input intermingles zeroes & ones
+So removing parentheses isn't truly safe.
+date has the YYMMDD format and time the HHMMSS format.
+Whether this path is a character device.
+skip checks if the compiler was overridden with a CC env variable
+Ignore ctl-c like the pager itself does.  Otherwise the pager is
+Error handling is done in the same way as defined for the
+may still show up as name references. We ignore them.
+examples start with a clean slate.
+using a Unix socket, LMTP generally don't support or require any
+if kwonlydefaults and kwarg in kwonlydefaults:
+no section header in the file?
+controls number of lines displayed before and after the change.
+Returns `None` if the given object does not have a docstring.
+stored is the true file size mod 2**32.
+return ip_str + '%' + self._scope_id if self._scope_id else ip_str
+we consume arguments.  Mainly there for the benefit of
+legacy is only needed when talking to old servers.
+Read & discard the extra field, if present
+as if it's a regular partial object, but taking into
+This won't display anything unless an example fails, in which case the
+Encodes input and returns the resulting object.
+The method should use a greedy read strategy, meaning that
+if both `src` and `dst` are symlinks.  If `lchmod` isn't available
+The leaf at pos is empty now.  Put newitem there, and bubble it up
+TypeIgnore is a special case where lineno is not an attribute
+A specialized version of the python debugger that redirects stdout
+We have an '*args'-like argument, let's fill it with
+Adds unresolved variables to the done dict.
+We can't control the tty or stdin.  Give up and use normal IO.
+return 'built-in module ' + thing.__name__
+The arguments are as for sendmail, except that msg is an
+num_lines -- from/to current line number.  This is NOT intended to be a
+token, which is the first token sequence output by tokenize.
+argument to "" so that the output will be uniformly newline free.
+if the pythonX.Y-doc package is installed or in
+If -n is not given, a suitable number of loops is calculated by trying
+default, no extra globals are used.
+isn't compiled in to the `thread` module.  This creates potential problems
+but cannot instantiate a WindowsPath on a POSIX system or vice versa.
+The optional argument `name` is a name identifying this
+For DynamicClassAttributes on the second pass we only look in the
+successive selectors. This is necessary if the pattern contains
+At least on Linux/Intel, 'machine' is the processor --
+Many thanks to all those who helped adding platform-specific
+A list of breakpoints is maintained in the Bdb instance and in
+XXX ncoghlan: Should this be documented and made public?
+Make the decoder if it doesn't already exist.
+forward slashes to platform specific separators.
+An empty argument is interpreted as meaning the local host.
+The function wants to return a datetime y with timezone tz, equivalent to x.
+for packages distributed within the distribution. Local addons go
+The constructor takes a statement to be timed, an additional
+But we are not at the first line number: don't break.
+octal digits followed by a null-byte, this allows values up to
+the translation to UTF-8 fails. For the time being, we don't care about
+Return a DocTest for the given object, if it defines a docstring;
+Open out_file if it is a pathname
+contributors may be used to endorse or promote products derived from
+Ignore mode for directories & symlinks
+otherwise a default prefix is used.
+If true, several items will be combined in one line.
+GetPassWarning: When we were unable to turn echo off on the input.
+That's OK, just empty *args.  Let's start parsing
+Note that the name is 100% informational -- there's no requirement that
+the total number of failed examples, and `t` is the total
+the network should be decreased by.  For example, given a
+loop through the rest of the field_name, doing
+access, the mode 'w+b' opens and truncates the file to 0 bytes, while
+we don't care about the carets / suggestions / etc
+if not chunk: # reached the end of the file
+This regular expression is used to find doctest examples in a
+creating references that will cause the garbage collector to
+and whether "facts" argument has been provided.
+Remove the given option from the given section.
+prefix added to original configuration variable names
+NOTE: the "message id" form isn't supported by XOVER
+directly: Whichever is easier. They are merged later.
+they most likely won't be using an os.PathLike object in the sublists.
+Restricting synch points to contiguous matches preserves some notion of
+Check for a class with a custom metaclass; treat as regular
+if the expansion uses the name without a prefix.
+if value is tb is _sentinel:
+class documentation description of the attribute
+If timeout is not given or is None,
+or 'modules', a listing of these things is displayed.
+in add block, delete block coming: we do NOT want to get
+If a failure or error occurs, the globals are left intact:
+several non-exact match types are also possible.  See the
+If there has been no previous EHLO or HELO command this session, this
+fromlines -- list of text lines to compared to tolines
+Hostname to send for this command defaults to the FQDN of the local
+raise NotADirectoryError and mask the PermissionError.
+or code object.  The source code is returned as a single string.  An
+prevent any more finalizers from executing during shutdown
+parts_lo is the number of parts to copy from below/after the '::'
+If no name was given, then use the module's name.
+if raw or value is None:
+generated with Python 2 loadable by Python 3.
+common: a list of names in both dir1 and dir2.
+A dictionary containing initial global variables for the tests.
+accessed through an instance and through a class.  Instance access remains
+A boolean, True if the address is within the
+C, not for instances of user-defined classes.
+It will be removed in future.
+usually itself. The default implementation decides how to
+that "e volatil" was inserted between the 't' and the 'e' in "private".
+The modification times are normally expressed in the ISO 8601 format.
+Try to use the PROCESSOR_* environment variables
+Exceptions raised when an error or invalid response is received
+For IPv4-mapped IPv6-addresses the ``is_private`` value is determined by the
+providing the errors keyword argument. See the module docstring
+and an ExceptionGroup of all errors if *all_errors* is True.
+Don't attempt to read a continuation line if it is broken.
+It is an error if *buffer_callback* is not None and *protocol*
+contents override any pre-existing defaults. If `option` is a key in
+The URL received is in self.path.
+This condition should be only triggered once, so
+Read the module's source code.  This is used by
+Match the start of the path, or just after a path separator
+it is not expected to generate an exception.  This exception
+Note about Windows. We don't set SO_REUSEADDR because:
+The C version demands a tuple for implementation performance.
+Reads up to a buffer's worth of data if size is negative."""
+if cv in _config_vars and cv not in os.environ:
+The `_lines_cached` slot stores the string path with path separators
+doesn't contain any junk *or* popular non-junk elements.
+For now the second category is ignored.
+exceptions occur for lines where context separators go
+Not globally reachable address blocks listed on
+Test examples in docstrings in functions and classes reachable
+methods, but they may if they want to redefine the
+Even though IOBase does not declare read or write because
+A list of keys to be removed
+strings are tested directly, as if they were docstrings.
+XXX Should this return the number of bytes written???
+and much better for input fuzzily ordered.
+not allow other errors to be caught.
+Search for a keyword in the synopsis lines of all available modules.
+Scripts may get the current directory in their path by default if they're
+print sub-header only if we have new-style callers
+its StreamReader class or factory function.
+for tag, i1, i2, j1, j2 in codes:
+if obj is None or func is None:
+Now, parse the hextets into a 128-bit integer.
+This converts each documentation string in a module that
+newlines to separate path components, and not setting `re.DOTALL`, we
+Allow user to override all archs with ARCHFLAGS env var
+creating references that will cause the garbage collector to
+NOTE: This neither checks for a wildcard in 'group' nor does
+Process command-line arguments and populate 'values', consuming
+BytesIO/StringIO instance to a real file. So we list
+NetmaskValueError: If the netmask isn't valid for
+Functions which aren't available as string methods.
+Use `from_exception` to create TracebackException instances from exception
+If a class has had one of its abstract methods implemented after the
+from oldest to newest stack frame.
+These are objects which make the interpreter exit when called.
+Context diffs are a compact way of showing line changes and a few
+be used to decode a Python source file.  It requires one argument, readline,
+With the C locale, the output should be mostly ASCII-compatible.
+This check is fine because the OPTCRE cannot
+All function-like objects are obviously callables,
+Perform direct write of the header and payload of the large binary
+upper bounds first -- have seen this speed up messy
+for cmsg_level, cmsg_type, cmsg_data in ancdata:
+pump out a '-', '?', '+', '?' quad for the synched lines
+Are two open files really referencing the same file?
+options and arguments from 'rargs'.  If 'allow_interspersed_args' is
+Generate a default SSL context if none was passed.
+Based on the reference implementation for divmod_near
+Per RFC 4642, STARTTLS MUST NOT be sent after authentication or if
+usually sensible, and __doc__ often is.
+For incremental decompression, use a BZ2Decompressor object instead.
+meant to ever support addition/subtraction of addresses.
+a usage string for your program.  Before it is displayed
+variable.  If the error was for some other reason, we hope the
+The magic word consists of the 4 characters '.snd'.  Apart from the
+ascending & non-overlapping in i and in j; terminated by
+same as an unassociated address. That's why the hash
+z' must be in standard time, and is the spelling we want in this case.
+certain to be missing, and which *may* be missing.
+Sync it when modify this function.
+method of the same name to perform each SMTP command.  There is also a
+Returns a tuple of three lists:
+by looking them up in __globals__ or __builtins__
+case.  SequenceMatcher is quadratic time for the worst case and has
+there is no port specified, that suffix will be stripped off and the
+when testing the warnings module itself.
+Search the archive before the link, because a hard link is
+Workaround for broken uuencoders by /Fredrik Lundh
+is raised showing the name of the file containing the test and a
+dostime only stores even seconds, so be lenient
+Note: it's tempting to calculate mean and standard deviation
+The `summarize` method prints a summary of all the test cases that
+Modify config vars using new compiler, if not already explicitly
+we may not be able to assign bytes to it, and slicing it
+argument supplied to these methods must also have its path separators and
+without the ASCII flag.  We can't add re.ASCII to flags because of
+A custom opener can be used by passing a callable as *opener*. The
+Returns up to size bytes.  If at least one byte is buffered, we
+string, and is only used for error messages.
+Then iterate over resulting networks, skipping subsumed subnets
+strings for 'fromfile', 'tofile', 'fromfiledate', and 'tofiledate'.
+if self.islambda:       # lambdas always end at the first NEWLINE
+avoid 'import types' just for ModuleType
+invalid charset, raise a SyntaxError.  Note that if a utf-8 bom is found,
+The second sequence to be compared is not changed.
+the unique 'b's and then matching the first two 'a's.
+see PEP 3101 for details and purpose of this class
+May be called more than once without error. Once the file is
+the Python Cookbook, published by O'Reilly.
+Insert a space between two consecutive strings
+so we need an explicit "not supplied" value.
+send            resumes the generator and "sends" a value that becomes
+Otherwise, this function returns the default text encoding
+Translate the host/port argument into a sequence of 5-tuples that contain
+address: A string or integer, the IP address.  Either IPv4 or
+The `line` must be a bytes-like object."""
+service, the name of the test file must be randomized."""
+Can raise OSError for non seekable files."""
+The extension is everything starting at the last dot in the last
+dictionary or intrinsic defaults. The keys must be strings, the values
+as completion key and register ~/.python_history as history file.
+Flush the stream.  We're mixing buffered I/O with lower-level I/O,
+code was running and doing so was somewhat optional. Here, we
+tagged response, or untagged results from command. Each 'data'
+second sequence, so if you want to compare one sequence S against
+prototypes that will later be wrapped in a more sophisticated interface.
+earlier components are recorded in self.prefix.
+This is a separate method to make life easier for
+Duplicate the socket. Return a new socket object connected to the same
+opened, or it can be an existing file object to read from or
+Create a new DocTest containing the given examples.  The
+always the length of data in bytes. Note that due to buffering,
+Returns a named tuple of dicts mapping the current nonlocal, global
+outside, but since that's not good style we simply list
+if not name in self.capabilities:      # Let the server decide!
+inside an add block, yield the add line
+The year, month and day arguments are required. tzinfo may be None, or an
+Helper to process -W options passed via sys.warnoptions
+replace spaces from expanded tabs back into tab characters
+in the section. If the used dictionary type preserves order, sections
+The exact number of bytes returned is unspecified.
+has multiple short option strings, it will appear in this
+Use the binary streams underlying stdin/stdout
+legal values, that newline becomes the newline when the file is read
+if readermode and 'READER' not in self._caps:
+given, `arcname' specifies an alternative name for the file in the
+Note: there is a certain baseline overhead associated with executing a
+Each context dictionary maps object names to anchor names."""
+should either exit or raise an exception.
+For text mode, an LZMAFile object is created, and wrapped in an
+in self.  Any keys in dict without a corresponding attribute
+to the AUTH command, if the authentication methods supports it.
+This exception is raised when an attempt is made to run a command or a
+If UTF8 is enabled, charset MUST be None.
+A set-up function.  This is called before running the
+If 'limit' is omitted or None, all entries are printed.  If 'file'
+This regular expression finds the indentation of every non-blank
+gi_running      set to 1 when generator is executing, 0 otherwise
+value for boolean comparisons in Python 2.3.
+If the function has no annotation for its return type, this
+on the same page without conflict.
+At this point we don't know whether 'name' is a
+complicated interdependencies, but luckily they can be farmed
+Helper to batch up APPENDS sequences
+list of such instances since there may be more than one
+the 1:MM standard time spelling we want.
+A boolean, True if the address is a loopback address as defined in
+optional dictionary is passed in as the second argument, it is
+Note, all extension names are mapped to lower case in the
+Used internally in the library, since the server disconnected error
+Possible repetitions that raise this exception are: multiple creation
+r"""Read and return a line of bytes from the stream.
+process change flags, generating middle column of next anchors/links
+Intrinsic defaults can be specified by passing them into the
+The old flag is returned so that a runner could restore the old
+provided using the `vars` argument, which must be a dictionary whose
+change tabs to spaces before it gets more difficult after we insert
+return s + self.microsecond / 1e6
+Path doesn't exist or is a broken symlink
+essentially identical to the default posix_prefix/nt schemes.
+info field, all header fields are 4 bytes in size.  They are all
+and socket type values to enum constants.
+Return a string matching __file__ for the named module
+local. They are shared across threads:
+from _thread import allocate_lock as Lock
+called once for each directory that is copied. It returns a
+do it like make: fall back to environment
+This module provides generic, low- and high-level interfaces for
+to the current directory.  Returns the name of the archive file.
+to be checked before being used.  This can be used to avoid
+subprocess may not be available during python bootstrap
+in fact, these are the standard versions used most places in the
+that the desired day is December 31 at the end of the 4-year cycle.
+if timeout is not None and not timeout:
+s and us fit in 32-bit signed ints; d isn't bounded.
+unaffected. `src` and `dst` are path-like objects or path names given as
+Wait until thread.serving is True and thread.docserver is set
+for the same path on systems that support symlinks
+if creating + reading + writing + appending > 1:
+we cannot separate normal dlls from Python extensions.
+specified, then the calling module's directory is used as the base
+to the Option instances that implement them.  If an Option
+drwxr-xr-x   3 root     wheel        1024 Jan  3  1994 usr
+Fixup leading and trailing groups if they show no changes.
+index for a node and the indexes for its children slightly less
+The delimiter /should/ occur the same number of times on
+Note that the function has intimate knowledge of how different
+if optionflags & ELLIPSIS and ELLIPSIS_MARKER in want:
+if col < columns - 1:
+In C we'd look for these in parallel of course.
+The field name parser is implemented in _string.formatter_field_name_split
+run_name -- if not None, this will be used to set __name__;
+Return a generator of groups with up to n lines of context.
+of a namespace package. We test by seeing if the name, with an
+first unexpected exception or failure. This allows failures to be
+yield from/to line in pairs inserting blank lines as
+Path doesn't exist or is a broken symlink
+both that copyright notice and this permission notice appear in
+co_varnames         tuple of names of arguments and local variables"""
+to the user, "%prog" will be expanded to the name of
+recursively to the pieces of the sequences to the left and to the right
+for j in 1, 2, 5:
+has set stopframe in a generator by issuing a return command, or a
+If lineno doesn't exist for the filename, return an error message.
+than the average case.  However, there are other representations which
+if stripArch or 'ARCHFLAGS' in os.environ:
+but without actually using os.popen because that
+Each row represents a week; week entries are
+Upon exiting the context, the directory and everything contained
+are passed to the caller as exceptions.
+type, ie. which may consume an argument from the command line.
+symlinks to directories are forbidden, see bug #1669
+values from the command line: that is, they are passed to the
+Requires that the metaclass is ABCMeta or derived from it.  A
+command.  Otherwise, the local hostname is found using
+This is faster and with less overhead.
+Path doesn't exist or is a broken symlink
+Always try reading and writing directly on the tty first.
+blocksize: The maximum data size to read from fp and send over
+from datetime import datetime, timezone, timedelta
+if not dirname or not basename:
+This function should be called before any use is made of the class,
+seq can be any iterable yielding byte strings.
+contain the module, but has no source for it.
+omit the filename in its output. Follow the symlinks. It returns
+The value of this property should not be cached on the path object,
+Backward compatibility cruft to maintain doctest.master.
+Longest matching block is "ab", but if common prefix is
+sys.abiflags may not be defined on all platforms.
+If this flag were false, that command line would be interpreted as
+DWA - m will still be None if this wasn't invoked from the command
+gcc-4.2 is either not present, or a copy of 'llvm-gcc' that
+Read configuration from a given string.
+POSIX.1-2017, 11.1.7 Non-Canonical Mode Input Processing,
+Special case for when the number of bytes to read is unspecified.
+Extract info from the regexp match.
+Fields from a pax header that are affected by hdrcharset.
+used with a socket or two-way pipe.
+The arguments have the same meaning as the corresponding arguments
+The `line` must be a unicode string."""
+Each column is only as wide as necessary.
+fast case when only a single iterator remains
+otherwise, '<run_path>' will be used for __name__.
+The symbol could be inserted into the package from the
+standard output is written, respectively.  The return value is the
+We only arrive here if the positional arguments ended
+If there has been no previous EHLO or HELO command this session, this
+current stack is used. Usually used with StackSummary.extract.
+Additionally various helper functions are provided that make working with
+Only makes one system call, so not all of the data may be written.
+be viewed as an adaptive notion of semi-junk, and yields an enormous
+that a cell and the two cells it tops contain three different items,
+like to define and document all class attributes in the same
+either express or implied.  See the License for the specific language
+if address_equal is NotImplemented or not address_equal:
+it's useful as a superclass of an interpreter class you define yourself
+Currently, the following implementations are identified:
+Doing this here ensures venv takes precedence over user-site
+close           raises a new GeneratorExit exception inside the
+An empty string is returned if the value cannot be determined.
+Get some infos from the builtin os.uname API...
+Fetch the next header and process it.
+This customization is performed when the first
+Clear all POSIX.1-2017 local mode flags.
+option is the Option instance calling the checker
+Given a list of tuples or FrameSummary objects as returned by
+to see all opponents s/he had.  However, in many computer applications
+Find minimum indentation of any non-blank lines after first line.
+Split a path in root and extension.
+return that docstring node, None otherwise.
+Calls the timeit method with increasing numbers from the sequence
+Whether this path is a symbolic link.
+this operation may be extremely slow.
+must count even if frequency is 0
+but rather a field of the node itself.
+info dicts, as used in zipimporter._files.
+of the JoinedStr, fallback to using repr and triple single quotes.
+and the import machinery don't work anymore
+the numbers for user/group names are used and not the names.
+Large float and imaginary literals get turned into infinities in the AST.
+Check if message is already a Warning object
+This includes the leading period. For example: '.txt'
+A string listing directories separated by 'os.pathsep'; defaults to
+Setting O_TEMPORARY in the flags causes the OS to delete
+pump out diffs from before the synch point
+filenames.  It is an error to specify "package" if
+row, then the first row is presumed to be labels. If the type
+Note, this function utilizes the ndiff function to generate the side by
+Next we instantiate a Differ object:
+doesn't make any sense.  There are some times however, where you may wish
+code, even though it violates the RFC.  Popular IMAP servers such as Gmail
+Put the rest back together and keep it until the next call
+pull from/to data and flags from mdiff iterator
+operation will continue if it encounters existing directories, and files
+There are a great many versions of the constants used in these formulae.
+The wrapped-object will fallback to a Py2.x style comparison for
+to a given stream when interacting with the user.  Stdout is *not*
+Return the longest prefix of all list elements.
+For incremental compression, use a BZ2Compressor object instead.
+parts_hi is the number of parts to copy from above/before the '::'
+visitor methods to replace or remove the old node.  If the return value of
+if None, all from/to text lines will be generated.
+traceback to the browser, and 'logdir' can be set to a directory to cause
+So, distributors will change the default scheme to one that correctly
+whitespace stripped; if the source is not available it is None.
+Helper that gives a nicer error message when attempting to
+using getattr.  Static and class methods are dramatic examples.
+Heaps are also very useful in big disk sorts.  You most probably all
+time.struct_time tuple or None if the string has wrong format.
+not be used in advertising or publicity pertaining to distribution
+vanishes, you switch heaps and start a new run.  Clever and quite
+localize variable access to minimize overhead
+On Windows, the msvcrt module will be used.
+Raised if an ambiguous option is seen on the command line.
+add the pseudo opcode to the lists its targets are in
+This IP class contains the version independent methods which are
+Support path-like base_name here for backwards-compatibility.
+is successful, the test file is deleted.  To prevent denial of
+file is not a valid filesystem path
+EGENIX.COM SOFTWARE GMBH DISCLAIMS ALL WARRANTIES WITH REGARD TO
+to /usr and /System/Library by either a standalone CLT
+making multiple reads from the underlying stream. Reads up to a
+XXX The C implementation avoids a copy here
+A set of doctest option flags expressed as an integer.
+collection.  If you would like to examine the namespace after
+NNTP server on the local machine and intend to call
+Raise DuplicateSectionError if a section by the specified name
+to compare host bits, you can easily enough do a
+filters contains a sequence of filter 5-tuples
+If there has been no previous EHLO or HELO command this session, this
+writeable respectively. If the buffer_size is omitted it defaults to
+line number is zero-based, with respect to the beginning of
+The CO_xxx symbols are defined here under the same names defined in
+expected exceptions.  It divides `want` into three pieces:
+A buffer for a readable, sequential BaseRawIO object.
+the tty.  If no tty is available defaults to sys.stderr.
+File types that are part of the GNU tar format.
+This behaviour mimics the Python interpreter
+co_firstlineno      number of first line in Python source code
+no close pair, but an identical pair -- synch up on that
+Return an int indicating the new absolute position.
+The interactive prompt also allows imports from the current directory.
+Find, parse, and run all tests in the given module.
+Keys are section names, values are dictionaries with keys and values
+and the line on which the token was found.  The line passed is the
+container formats, as well as raw compressed data streams.
+It defaults to -1 which means that the default buffer size will
+MTA's will disconnect on an ehlo. Toss an exception if
+Capitalize the words in a string, e.g. " aBc  dEf " -> "Abc Def".
+On OSX the machine type returned by uname is always the
+requires no arguments.  Both methods should return bytes.
+When opening a file for writing, the settings used by the
+very easily. See encodings/utf_8.py for an example on how this is
+A boolean, True if this is the unspecified address as defined in
+Return string in form: '"DD-Mmm-YYYY HH:MM:SS +HHMM"'.  The
+Used to allow strings from Python 2 to be decoded either as
+object is then serialized using email.generator.BytesGenerator and
+reference to the value exists anymore
+When `dict_type` is given, it will be used to create the dictionary
+of function names to instances of FunctionProfile. Each FunctionProfile
+does this need to raise a ValueError?
+of such tournaments, we do not need to trace the history of a winner.
+are strings, not numbers, since they are rarely used for calculations.
+the syntax of that option, e.g. "-h, --help" or
+The reason it can't always be determined is that it's impossible to
+In case we still don't know anything useful, we'll try to
+In non-blocking mode, returns as much as is immediately available,
+The set of actions for which it makes sense to supply a value
+more annoying than clever, and this is a consequence of the seeking
+and test suites to support post-mortem debugging.  The test code
+Parse the netmask/hostmask like an IP address.
+Values that cannot be determined are returned as given by the
+the feature was dropped, or the release date is undetermined, is None.
+TMP_MAX  - maximum number of names that will be tried before
+Create a new zipimporter instance. 'archivepath' must be a path to
+If the argument is omitted, None, or negative, reads and
+insert marks that won't be noticed by an xml/html escaper.
+the Breakpoint class.  If a breakpoint in the Bdb instance no
+for every file found in path.
+This contains rename rules that are easy to handle.  We ignore the more
+Added the POP3_SSL class. Methods loosely based on IMAP_SSL. Hector Urtubia <urtubia@mrbook.org> Aug 2003
+disk, we always have to reload the module.  Checking the file's
+If none were set, return an error message.
+Issue a separate call to write to append the frame
+cookie as specified in pep-0263.  If both a bom and a cookie are present,
+This means, that we need to calculate the signature
+like "-arch" or "-isdkroot", that may need customization for
+version of this method for more details.
+package.  To ensure os-independence, "filename" should use
+arguments text, line, begidx, endidx.  text is string we are matching
+on the current machine it is better to not use an SDK
+Returns an empty bytes array on EOF.
+ValueError: if the input isn't strictly a hex number from
+then returns the time it takes to execute the main statement
+Using _basename instead of os.path.basename is important, as we must
+Generate a default SSL context if none was passed.
+When `converters` is given, it should be a dictionary where each key
+it is printed out on interpreter startup.  This value may be overridden
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Per the diff spec at http://www.unix.org/single_unix_specification/
+mapping from UTC to tz's standard time.
+was "Because I felt like it."
+Set _short_opts, _long_opts attrs from 'opts' tuple.
+must allow a difference of at most one second.
+can be true for the same path on systems that support symlinks
+next four arguments are the corresponding optional formatting functions
+to that.  If, using all the memory available to hold a tournament, you
+stream must be a file-like object open for reading.
+Truncate to 1GiB to avoid OverflowError, see bpo-38319.
+If this fails, the exception will "explain" why
+The example raised an exception:  check if it was expected.
+This subclass of IncrementalEncoder can be used as the baseclass for an
+No default, not VAR_KEYWORD, not VAR_POSITIONAL,
+e.g., "aix-6107-1415-32" for AIX 6.1 TL7 bd 1415, 32-bit
+side difference markup.  Optional ndiff arguments may be passed to this
+if you're comparing lines as sequences of characters, and don't
+or 'python imaplib.py -s "rsh IMAP4_server_hostname exec /etc/rimapd"'
+ValueError: If self.prefixlen - prefixlen_diff < 0. I.e., you have
+add a named group only the first time it appears
+The standard FTP server control port
+The 'record' argument specifies whether warnings should be captured by a
+The following methods are used by IPv4 objects in both single IP
+Find the line number for modules.
+Find the docstring's location in the file.
+Bytes read from the file are decoded using file_encoding and then
+Iterators in Python aren't a matter of type but of protocol.  A large
+in this module understands the enums and translates them back from integers
+lazy cache entry, leave it lazy.
+underlying encoded files are always opened in binary mode.
+if the passed arguments can not be bound.
+another candidate location to store temporary files.
+To be precise, this executes the setup statement once, and
+Raises a LookupError in case the encoding cannot be found.
+then we are running with an Xcode environment that supports universal
+similar to the UNIX program cal.
+undefined. Implementations may raise OSError in this case.
+The LC_TIME locale does not seem to be configured:
+self.type check is for callbacks that take a value.
+The cache. Maps filenames to either a thunk which will provide source code,
+Differ is a class for comparing sequences of lines of text, and
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+Length check means we can skip checking the integer value
+If `follow_symlinks` is false, symlinks won't be followed.
+insensitively defined as 0, false, no, off for False, and 1, true,
+Group comp.lang.python has 51 articles, range 5770 to 5821
+backwards, and this was also used to avoid the rewinding time.
+they are called this instead of "ref" to avoid name collisions with
+off the received input, and dispatch to action methods, passing them
+OptionalRelease records the first release in which
+Skip chars_to_skip of the decoded characters.
+Configuration files may include comments, prefixed by specific
+Backslashes are only literal in the string and are never
+a '*' to separate keyword-only arguments
+Make sure there is at least one step
+First try to get the value via getattr.  Some descriptors don't
+if preceding > n:  # estimate is too large
+Stack is ... markobject classobject arg1 arg2 ...
+Linux kernel older than 3.11 ignores the O_TMPFILE flag:
+document its available methods instead of its value.
+TypeError: If self and other are of differing address
+if a given MIME type appears more than once in the mailcap file.
+drwxr-xr-x   6 1094     wheel        1024 Sep 13 19:07 pub
+If <BLANKLINE>s are being used, then replace blank lines
+underlying file object, without adding a __del__ method to the
+Otherwise, allocate the entire address to parts_hi.  The
+Returns the directoryname in the 257 reply.'''
+Current implementation raises this exception only when an option is found
+setting `recursive' to False. `filter' is a function
+initial state as the current one."""
+More than one possible completion: ambiguous prefix.
+section in the .rst file under Doc/ and an index into the dictionary
+is considered a user error and raises `InterpolationSyntaxError`."""
+Either add symbols to this dictionary or to the symbols dictionary
+When no more lines, pump out any remaining blank lines so the
+Id: option.py 522 2006-06-11 16:22:03Z gward
+faster one available.  You should always import the `local` class from
+The default mode is "rb", and the default compresslevel is 9.
+be made available without that prefix through sysconfig.
+Unless we add a new parameter type we never
+Look for tests in a module's __test__ dictionary.
+Change the stream position to byte offset pos. Argument pos is
+when executing examples; by default, use m.__dict__.  A copy of this
+Check to make sure the local file header is correct
+by default.  Set to false value to disable default value expansion.
+This ReplacePackage mechanism allows modulefinder to work around
+Return some information about a module.
+if needs_pax and name not in pax_headers:
+c_call: A C function is about to be called.
+Deciding the filename requires working out where the code
+Similarly, a 400-year cycle has an extra leap day over what we'd get from
+an all or nothing approach, so we allow for small variations in this
+correct module.  The object's module is used:
+Always returns at least one byte of data, unless at EOF.
+path is the argument to that function that caused it to fail; and
+platform-specific built distributions.  Typically includes the OS name and
+stdout is None, closed, detached, or not a terminal, or
+site-specific customizations.  If this import fails with an
+The `_hash` slot stores the hash of the case-normalized string
+which substitutions are made does not conform to the required syntax.
+Prime the linecache for formatting, in case the
+returns an iterable that contains tuples of the form:
+platforms. On some non-Unix platforms where the "file" command
+Stop at the StopIteration or GeneratorExit exception when the user
+then using _siftdown to move the oddball originally at index pos into place.
+returned as bytes, and data to be written should be given as bytes.
+The child indices of heap index pos are already heaps, and we want to make
+trying to create and write to a file in that directory.  If this
+caller. If it is '', universal newline mode is enabled, but line
+the next input to be decoded is dec_buffer + input_chunk.
+input must be an object which provides the bf_getreadbuf
+Just like _read_chunk, feed the decoder and save a snapshot.
+machine is going to compile and link as if it were
+If that URL should fail, try contacting the author.
+Additionally, an integer can be passed, so
+If the passed object is a piece of data or an instance,
+Software  is  furnished  to  do  so,  subject  to  the  following
+t >> 11,            # bits 11..15: hours
+However, you can also instantiate it directly on any system.
+microseconds over 10K years faithfully.  The code here tries to make
+This modules provides two functions for each color system ABC:
+We avoid using platform.mac_ver to avoid possible bootstrap issues during
+are considered implementation detail and may vary between Python
+search for the pair that matches best without being identical
+the example is expected to generate an exception; or `None` if
+Most probably the server didn't accept the username/password
+Assert that it returned an appropriately sized tuple
+If the IP versions of self and other are the same, returns:
+Again, the builddate of an AIX release is associated with bos.rte.
+return y*365 + y//4 - y//100 + y//400
+tracebacks to be written to files there."""
+given, the default buffering policy works as follows:
+Read configuration from a dictionary. Keys are section names,
+date has the YYYYMMDD format and time the HHMMSS format
+be essentially arbitrary Python objects -- anything that the "pickle"
+for i2, j2, k2 in matching_blocks:
+Wrapper module for _socket, providing some additional facilities
+because a dead weakref never compares equal to a live weakref,
+False, which is used to override default options for this
+For the OS-native venv scheme, we essentially provide an alias:
+max number of weeks for this row
+Check first if we are in a method and the instance
+The statements may contain newlines, as long as they don't contain
+If you're only interested in where the sequences match,
+Returns an empty string if EOF is hit immediately.
+of a path.  Don't try to construct it yourself."""
+be considered to be IPv4 by default.
+Nygubhtu gung jnl znl abg or boivbhf ng svefg hayrff lbh'er Qhgpu.
+the raw I/O interface on top of a socket object.
+includes information about where the string was extracted from.
+is false and onerror is None, an exception is raised.
+Protect the iteration by using a list copy of sys.modules against dynamic
+If possible, we write both of these on the same line:
+Do not alter a config var explicitly overridden by env var
+b2j also does not contain entries for "popular" elements, meaning
+It is usually not needed to use the zipimport module explicitly; it is
+If any of 'suffix', 'prefix' and 'dir' are not None, they must be the
+Raises a LookupError in case the encoding cannot be found
+if not a change on first line, drop a link
+This connection will be used by the routines:
+Glean a destination from the first long option string,
+Evaluate an expression node or a string containing only a Python
+method might return, so its output is eventually removed from
+if value is not None or not self._allow_no_value:
+For descriptions of all methods, read the comments in the code below.
+supporting documentation, and that the name of Lance Ellinghouse
+Optional keyword arg "verbose" prints lots of stuff if true, prints
+If a parser class implements a getter directly, the value for the given
+The `_drv`, `_root` and `_tail_cached` slots store parsed and
+The extra colon comes from using the "::" notation for a single
+This is the longest sequence of zeros so far.
+Note: this function may not be able to retrieve all attributes
+Optional last argument is callback function; all
+are more efficient overall, yet the worst cases might be terrible.
+Data written to the wrapped file is decoded according
+using all keys from the dictionary regardless of whether
+OpenVMS seems to have release and version mixed up
+is the largest with a child index in-range, so must have 2*i + 1 < n,
+is necessary to initialize each thread's dictionary.
+The StreamReader may use different error handling
+use this routine again to wrap the remaining text
+diff_files: list of filenames which differ.
+If follow_symlinks is not set and src is a symbolic link, a new
+be generated in either full or contextual difference mode.
+modules, keywords, symbols, or topics, enter "modules", "keywords",
+On random arrays of length 1000, making this change cut the number of
+that "volatile " was inserted before "Thread".  The only quibble
+and Signature: the former always returns 'self' parameter for bound
+and each of the specified options will be passed to it.  If EHLO
+In normal operation, both `UnsupportedOperation`s should be bound to the
+its IncrementalDecoder class or factory function.
+then it should be interpreted relative to the directory
+obvious, but is more suitable since Python uses 0-based indexing.
+f_lasti         index of last attempted instruction in bytecode
+Skip underlying buffer to avoid unaligned double buffering.
+Add any remaining post-example text to `output`.
+Whether a frame is considered to originate in a certain module
+The optional copy_function argument is a callable that will be used
+By default, it returns an empty list.
+Passing in an object of any other type raises TypeError.
+This shouldn't be called directly; it is called via
+Suppose you have some data that you want to convert to another format,
+Always escape backslashes and other non-printable characters
+Some descriptors may meet a failure in their __get__.
+Original code by Kevin O'Connor, augmented by Tim Peters and Raymond Hettinger
+Block until the socket is ready to send some
+Skip back by buffered amount and reset heuristic
+string on a second line, indented to the same column it would
+Values which cannot be determined are set to the defaults
+returning true iff the element is "junk" -- this has
+of "%prog" in self.version is replaced by the current program's
+for name, kind, homecls, value in ok:
+TarInfo object, if it returns None the TarInfo object will be
+Replace <BLANKLINE> in want with a blank line.
+EXPRESS OR IMPLIED, INCLUDING  BUT NOT LIMITED TO  THE WARRANTIES
+storage of lines until we know for sure that they are to be yielded.
+can be called asynchronously by the GC
+Get the mapping of generator local variables to their current values.
+In --disable-unicode builds, these error handler are missing
+figuring out what to do with it.  In the case of an empty
+check for context separators and pass them through
+tottime, # time spent in this function alone
+The self-weakref trick is needed to avoid creating a reference
+Put rounded value in ustar header, and full
+without triggering dynamic lookup via the descriptor protocol,
+methods to do system calls on path objects. Depending on your system,
+All other platforms: check for same pathname.
+look for the first "def", "class" or "lambda"
+The optional argument timespec specifies the number of additional
+create the difference iterator to generate the differences
+a configuration file, she can escape it by writing %%. Other % usage
+modification times.  Any or all of these may be specified using
+it was filled with spaces. According to the GNU tar sources,
+but random access is not allowed."""
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+optionally OR-ed with the constant PRESET_EXTREME.
+be used to convert the file to unicode.
+This function should not reference any globals. See issue #808164.
+Arguments are similar to mkstemp, except that the 'text' argument is
+Raise ZipImportError if the module couldn't be found.
+can the request be satisfied from the character buffer?
+The list contains the exception's message, which is
+while depth:                    # Loop through this until it's done
+configuration files, foo.pth and bar.pth.  Assume foo.pth contains the
+to as its source address before connecting.
+memory if the blocks are of very different sizes
+May be called more than once without error. Once the file is
+Keep another reference to Ellipsis in the global namespace
+only want to modify nodes in place and don't care about the context.
+many books write the algorithm that way.  During a heap pop, the last array
+WOW64 processes mask the native architecture
+from it and added to the archive. You can create TarInfo objects
+Named arguments don't refer to '*args'-like parameters.
+This code is intended to pickle the object without making the
+This can only happen if someone replaces
+Fields from a pax header that override a TarInfo attribute.
+Close the socket object without closing the underlying file descriptor.
+This method must be provided by subclasses, and it must
+Split want & got into lines.
+For two lists of strings, return a delta in unified diff format.
+In the tree above, each cell `k' is topping `2*k+1' and `2*k+2'.  In
+argument to a REST command.  This is essentially a server
+Returns the resulting module globals dictionary.
+For user code address family and type values are IntEnum members, but
+The format, check, preset and filters arguments specify the
+otherwise.  If `extraglobs` is not specified, then it defaults
+to interactively browse documentation.  This option can be used in
+followed if and only if both `src` and `dst` are symlinks.
+tolines -- list of text lines to be compared to fromlines
+fall through to standard osname-release-machine representation
+A Signature object has the following public attributes and methods:
+This function/iterator was originally developed to generate side by side
+this routine unless written as part of a conditional replacement:
+For text mode, a GzipFile object is created, and wrapped in an
+Optional argument sep specifies the separator between date and
+TextIOWrapper tells the encoding in its repr. In StringIO,
+Look for tests in a module's contained objects.
+actually parsing the string; but we limit them by ignoring any
+interested in.  After that, you should look at the entire
+expansions are done late, on demand. If a user needs to use a bare % in
+If mode is 'w', 'x' or 'a', compresslevel can be a number between 1
+Use backslashreplace error handling on write
+or code object.  The source code is returned as a list of all the lines
+Run it with the -v switch instead:
+or None if no data is available.  Return an empty bytes object at EOF.
+Assume input argument to be string or any object representation
+Return the filename for the specified module or raise ZipImportError
+The target path may be absolute or relative. Relative paths are
+if node.end_lineno is None or node.end_col_offset is None:
+signature, where a continuation line begins with a quote
+Don't print here by default, since doing
+with an authorization failed error, it will set this to True;
+In other words, of all maximal matching blocks, return one that
+co_lnotab           encoded mapping of line numbers to bytecode indices
+if binary and errors is not None:
+if self._flavour is posixpath or not self._tail:
+for each from/to line split it at the wrap column to form
+The try/except block is in case this is called at program
+coroutine origin tracking *and* tracemalloc enabled, they'll get two
+for envname in 'TMPDIR', 'TEMP', 'TMP':
+Internal: get a response from the server, which may possibly
+session if a TLS session is already active.
+for name, kind, homecls, value in ok:
+the visitor method is ``None``, the node will be removed from its location,
+creating references that will cause the garbage collector to
+Version using fd-based APIs to protect against races
+have no choice and we have to remove it even while we read the
+An empty string is returned if the value cannot be determined.
+for locals in the `thread` module, and there is no circular import problem
+This method is more useful to debug a single function call.
+RFC 977 by Brian Kantor and Phil Lapsley.
+Note: The wrapped version will only accept the object format
+Writer must be factory functions or classes providing the
+Ensure owner can read & write
+module name patterns.  The debugger will not step into frames
+parent node.  It works recursively starting at *node*.
+A boolean, True if the address is not reserved per
+GH-103631: Convert separators for backwards compatibility.
+Is the O_TMPFILE flag available and does it work?
+We handle bare "--" explicitly, and bare "-" is handled by the
+The `_raw_paths` slot stores unnormalized string paths. This is set
+If the specified `section` is None or an empty string, DEFAULT is
+If prefixlen_diff and new_prefix are both set or new_prefix is a
+can be a callable function terminating with StopIteration:
+mro, drop it and search the mro manually
+if we got here then somebody got our mail
+from io import StringIO as _StringIO
+for _, keyword, value in raw_headers:
+RFC 1869 requires a space between ehlo keyword and parameters.
+but that's ok; known_paths will prevent anything being added twice
+containing the year's first Thursday; everything else derives
+Now, we iterate through the remaining parameters to process
+Divide the given string into examples and intervening text,
+Normalize everything to days, seconds, microseconds.
+SequenceMatcher computes and caches detailed information about the
+indented to line up with blocks of code, any whitespace than can be
+by Carey Evans <c.evans@clear.net.nz>, for picky mail servers.
+if self.dest is None and takes_value:
+string will be treated as a list with 1 address.
+The name of the section on a proxy is read-only.
+Cython, which have all attributes that a pure Python function
+Separate the underlying raw stream from the buffer and return it.
+If called from the command line, it prints the platform
+xover, xgtitle, xpath, date methods by Kevan Heydon
+Python source file to document. If name is 'keywords', 'topics',
+Localize variable access to minimize overhead.
+NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION
+When stepping with next/until/return in a generator frame, skip
+The data member `self.ruler' sets the character used to draw separator lines
+writing so this mode behaves in a similar way to 'w'. Add a '+' to the mode
+Abstract base class for formatting option help.  OptionParser
+Python has super accurate integer addition
+Yield all direct child nodes of *node*, that is, all fields that are nodes
+As per comment at top of file, simulate runtime __path__ additions.
+The optional argument `parser` specifies a class or
+used in Python 2, so that the pickle data stream is readable
+Hostname to send for this command defaults to the FQDN of the local
+NOTE: Cannot use subprocess here because of bootstrap
+ErrorDuringImport exception and reraised.  Unlike __import__, if a
+repeatedly, returning a list of results.  The first argument
+Just a little bit of carrying possible for microseconds and seconds.
+NOTE: We don't need to call this method before mutating the dict,
+file copy when fast-copy functions fail to do so.
+Note that when instantiating a Differ object we may pass functions to
+current position in the archive file
+If the server does not support SMTPUTF8, an SMTPNotSupported error is
+full-blown Xcode install since the CLT packages do not
+flags that should be used to execute examples.  Return a tuple
+getsockname and getpeername may not be available on WASI.
+Note: To guard against symlink races, we use the standard
+At least one of fileobj and filename must be given a
+This needs to find slots defined by the class and its bases, so we
+arbitrary number of quoted strings or SortKey enum to select the sort
+process change flags, generating middle column of next anchors/links
+caught up on blank lines yet, just process the delete line
+A single doctest example, consisting of source code and expected
+exception message is the first non-indented line starting with a word
+governing permissions and limitations under the License.
+If *buffers* is not None, it should be an iterable of buffer-enabled
+validate option arguments according to the option type.
+Here's where things are a little different from the run_module
+We determine whether or not a candidate temp dir is usable by
+This allows Python code to play nicely with non-filesystem based PEP 302
+Log in and encryption setup order is left to subclasses.
+If positional-only parameter is bound by partial,
+If encoding is not None, then the
+Raised if an Option instance is created with invalid or
+get it on a subsequent round
+spread about the filesystem.  We choose the
+maintain memory of the current line numbers between calls
+These rules should be run before import names are fixed.
+On Windows, calling fseek to skip over the fields we don't use is
+chain; the raw compressor does not support preset compression
+called each time the local object is used in a separate thread.  This
+Insert a space between two consecutive brackets if we are in an f-string
+package or the CLT component within Xcode.
+uses SequenceMatcher both to compare sequences of lines, and to compare
+given a field_name, find the object it references.
+the minor key of 'the name of the function'.  Look at the two tables in
+The socket must be of SOCK_STREAM type.
+If provided, `extra_args` is a sequence of
+our __class__ here, but need a real timedelta
+called more than once without error.
+Find tests for the given object and any contained objects, and
+for name, kind, homecls, value in ok:

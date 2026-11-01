@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RepoBrain · the safety layer for AI-written code</title>
+<meta name="description" content="Vendor-neutral policy, proof and clean code for repositories touched by AI agents.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23000'/%3E%3Cpath d='M8 20h4v4H8zM14 14h4v4h-4zM20 8h4v4h-4z' fill='%23E8F23A'/%3E%3Cpath d='M14 20h4v4h-4zM20 14h4v4h-4z' fill='%23C9B8FF'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<div id="stage"></div>
+<canvas id="pix" aria-hidden="true"></canvas>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div id="stageUi">
+  <div id="labels"></div>
+  <div id="hero-copy">
+    <div class="chip-row"><span class="chip solid">Hackathon build</span><span class="mono dim">RepoBrain 1.0 · runs on this machine</span></div>
+    <h1 class="hero-h">RepoBrain is the safety layer that sees what your AI agents do.<br><span class="dim">It asks before it merges.</span></h1>
+  </div>
+  <div id="hero-stats" class="mono"></div>
+  <div id="scrollhint" class="mono">scroll ↓</div>
+  <div id="feed" class="mono"></div>
+</div>
+
+<header id="nav" role="navigation" aria-label="Main">
+  <button class="ico" id="palette-btn" title="Command palette (Ctrl/⌘ K)" aria-label="Command palette"><svg width="14" height="14" viewBox="0 0 14 14"><path d="M1 1h4v4H1zM9 1h4v4H9zM1 9h4v4H1zM9 9h4v4H9z" fill="currentColor"/></svg></button>
+  <span class="clock mono" id="clock">--:--:--</span>
+  <span class="live mono"><i id="live-dot"></i><span id="live-txt">connecting…</span></span>
+  <nav>
+    <a href="#console" data-tab="review">Review</a><a href="#console" data-tab="agents">Agents</a><a href="#console" data-tab="explain">Explain</a><a href="#console" data-tab="audit">Audit</a><a href="#console" data-tab="policy">Policy</a>
+  </nav>
+  <a class="cta" href="#console" data-tab="review">Open console</a>
+</header>
+
+<main>
+  <section id="hero" aria-label="Introduction"></section>
+
+  <section id="story" aria-label="How it works">
+    <div class="sticky">
+      <div id="caption"><div class="mono step" id="cap-step"></div><div class="cap-h" id="cap-h"></div><div class="cap-p" id="cap-p"></div></div>
+      <div class="sat s1 glass" id="sat-risk"></div>
+      <div class="sat s2 glass" id="sat-run"></div>
+      <div class="sat s3 glass" id="sat-file"></div>
+      <div class="sat s4 glass" id="sat-last"></div>
+      <button class="sat s5 glass pill-input" id="sat-ask"><span class="mono dim">Ask before you act…</span><kbd>Ctrl K</kbd></button>
+    </div>
+  </section>
+
+  <section id="console" aria-label="Review console">
+    <div id="winbg"></div>
+    <div class="console-grid">
+      <div id="slot" aria-hidden="true"></div>
+      <div id="work">
+        <div class="panel glass" id="verdict"></div>
+        <div class="tabs" role="tablist" id="tabs">
+          <button data-tab="review" role="tab">Review <b id="n-review"></b></button>
+          <button data-tab="agents" role="tab">Agent preflight</button>
+          <button data-tab="explain" role="tab">Explain a failure</button>
+          <button data-tab="audit" role="tab">Audit <b id="n-audit"></b></button>
+          <button data-tab="policy" role="tab">Policy</button>
+          <button data-tab="model" role="tab">Model card</button>
+        </div>
+        <div class="panel glass tabpane" id="pane"></div>
+      </div>
+    </div>
+    <footer class="foot mono">RepoBrain · policy, proof and clean code for AI-assisted repos · all analysis runs locally · <a href="#" id="tour-link">play autopilot demo</a></footer>
+  </section>
+</main>
+
+<div id="toasts" aria-live="polite"></div>
+<div id="tourcap" class="mono" hidden></div>
+<div id="palette" hidden><div class="pbox glass"><input id="pin" placeholder="Type a command…  (approve, reset, typosquat, audit…)" autocomplete="off"><ul id="plist"></ul></div></div>
+<div id="offline" hidden><div class="glass"><b>Backend not reachable.</b><br>Run <code>python -m repobrain serve</code> in your project folder, then reload.</div></div>
+<script src="/scene.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

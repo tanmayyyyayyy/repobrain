@@ -1,0 +1,25 @@
+# RepoBrain policy for the RepoBrain repository itself (we dogfood the tool).
+# One file, every agent. The company owns the rules, not the AI vendor.
+version: 1
+optimize: off             # required | off. Advisory here: our own engine has known complexity hotspots (see README, "Dogfooding").
+approval: human           # nothing is merged without human review
+ai_changes: log_all
+max_complexity: 10        # per function
+max_depth: 3              # max nesting depth per function
+max_cognitive: 15
+max_files_changed: 40
+blocked:                  # paths AI agents may not touch without a human
+  - .github/workflows/
+  - secrets/
+  - .env
+ai_actors: [copilot, codex, antigravity, claude, bot, agent]
+ignore:                   # files that DEFINE or DEMONSTRATE attack strings (detector rules, corpora, demo seeds, tests)
+  - repobrain/data/
+  - repobrain/shield.py
+  - repobrain/server.py
+  - repobrain/mlguard.py
+  - repobrain/web/app.js
+  - examples/
+  - tests/
+  - demo/
+  - docs/
