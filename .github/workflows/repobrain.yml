@@ -34,7 +34,7 @@ jobs:
       - name: Verify the audit chain
         if: always()
         run: python -m repobrain audit || true
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with: { name: repobrain-report, path: "summary.md\nrepobrain.sarif" }
       - name: Fail the check if RepoBrain blocked the change
